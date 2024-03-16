@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    background-image: url('./images/happy-waiter-serving-food-group-cheerful-friends-pub.jpg');
+    background-image: url('./images/close-up-smiley-friends-restaurant.jpg');
+    background-size: cover;
+    background-position:top;
+
+    
+    height: 99.4vh;
+    width: 100%;
+}
+#body1{
+   
+    margin-top: 5%;
+    padding: 20px 199px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12%;
+}
+.body1Child{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#body2{
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 3%;
+
+
+
+
+}
