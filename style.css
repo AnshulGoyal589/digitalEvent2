@@ -3,7 +3,7 @@
   padding: 0;
 }
 #hero {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+  background-image: linear-gradient(rgba(110,4 , 45, 0.3), rgba(4, 9, 30, 0.6)),
     url('./images/close-up-smiley-friends-restaurant.jpg');
   background-size: cover;
   background-position: top;
