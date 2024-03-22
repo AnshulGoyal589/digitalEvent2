@@ -144,3 +144,150 @@
     position: relative;
     top: -75px;
 }
+
+@media only screen and (max-width: 768px) {
+    /* Adjust hero section */
+    #hero {
+      /* min-height: auto; */
+      padding: 10% 5%;
+      gap: 5%;
+      width: 90%;
+      padding-bottom: 100px !important;
+    }
+    #heroC > h4 {
+      text-align: center;
+    }
+    #heroC > h1 {
+        margin-top: 20% !important;
+      text-align: center;
+    }
+    #navbar{
+      display: flex;
+      /* align-items: start; */
+      justify-content: start !important;
+      gap: 20px !important;
+    }
+    #logo > img {
+      width: 100px !important;
+      margin-left: 20px !important;
+    }
+    #menu > ul{
+      display: flex !important;
+      flex-direction: row !important;
+    }
+    .er{
+      display: none;
+    }
+    #menu {
+      width: 100%;
+      padding: 0;
+    }
+    #menu a {
+      text-align: center !important;
+    }
+    #menu li {
+      text-align: center !important;
+    }
+  
+    #menu ul {
+  
+      flex-direction: column;
+      gap: 2%;
+      padding-left: 0;
+    }
+  
+   #mui{
+    width: 80% !important;
+   }
+  
+    #footer {
+      flex-direction: column;
+      padding: 5% 5%;
+      gap: 5%;
+    }
+  
+    #footer > div {
+      width: 100%;
+      text-align: center;
+      margin-top: 2%;
+    }
+    #footer > h2{
+      width: 100% !important;
+      text-align: center !important;
+      margin: auto;
+    }
+    #footer > p {
+      width: 100% ;
+      text-align: center;
+    }
+    #quick{
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 5px !important;
+  
+    }
+    #location{
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 5px !important;
+  
+    }
+    #locationTag{
+      display: flex;
+      justify-content: center !important;
+      align-items: center;
+      gap: 4%;
+      width: 100%;
+      
+    }
+  
+    #icons{
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 5px !important;
+      margin-bottom: 5px;
+    }
+    #time{
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 5px !important;
+      margin-bottom: 5px;
+    }
+    /* ////////////////// */
+
+    #story{
+        display: flex;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-bottom: 100px !important;
+    }
+    #story > div{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    #rt > img{
+        display: none !important;
+    }
+    #special{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    #ryu{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin-bottom: 50px;
+    }
+  }
