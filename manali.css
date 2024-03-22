@@ -3,7 +3,9 @@
     padding: 0;
 }
 #hero{
-    background-image: url('./images/chefs-demonstrating-cooking-skills-contest.jpg');
+    /* background-image: url('./'); */
+    background-image: linear-gradient(rgba(110,4 , 45, 0.3), rgba(4, 9, 30, 0.6)),
+    url('./images/TOI WFP.png');
     background-size: cover;
     background-position:top;
     height: 70.4vh;
