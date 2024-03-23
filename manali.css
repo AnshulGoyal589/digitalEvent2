@@ -162,6 +162,7 @@
     #heroC > h1 {
         margin-top: 20% !important;
       text-align: center;
+      font-size: 70px !important;
     }
     #navbar{
       display: flex;

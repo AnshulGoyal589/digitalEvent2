@@ -243,7 +243,7 @@
   #logo > img {
     width: 100px !important;
     margin-left: 20px !important;
-  }
+  }  
   #menu > ul{
     display: flex !important;
     flex-direction: row !important;
