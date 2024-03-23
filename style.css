@@ -331,6 +331,11 @@
     width: 95% !important;
   }
 
+  #tyu{
+    margin-bottom: 50px !important;
+    margin-top: -70px !important;
+  }
+
   .face img {
     top: -50px;
     display:none;
