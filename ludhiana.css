@@ -48,7 +48,9 @@
     align-items: center;
     gap: 4%;
     list-style: none;
-    width: 100%;
+    width: 100%;    
+    font-size: 15px !important;
+    font-weight: 900;
 }
 
 #hero h1{

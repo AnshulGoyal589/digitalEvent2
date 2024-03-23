@@ -155,6 +155,8 @@ textarea{
     #menu > ul{
       display: flex !important;
       flex-direction: row !important;
+      font-size: 15px !important;
+      font-weight: 900;
     }
     .er{
       display: none;
@@ -175,6 +177,7 @@ textarea{
       flex-direction: column;
       gap: 2%;
       padding-left: 0;
+      
     }
   
    #mui{

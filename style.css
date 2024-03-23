@@ -238,7 +238,7 @@
     display: flex;
     /* align-items: start; */
     justify-content: start !important;
-    gap: 20px !important;
+    gap: 10px !important;
   }
   #logo > img {
     width: 100px !important;
@@ -247,6 +247,8 @@
   #menu > ul{
     display: flex !important;
     flex-direction: row !important;
+    font-size: 15px !important;
+    font-weight: 900;
   }
   .er{
     display: none;
