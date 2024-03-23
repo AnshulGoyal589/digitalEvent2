@@ -215,6 +215,23 @@ img {
       gap: 2%;
       padding-left: 0;
     }
+    .menuuu p {
+      font-size: 12px;
+      display: inline-block;
+    }
+    .menuuu span {
+      font-size: 12px;
+      margin-left: 6px;
+    }
+
+    .menuuu > div > div{
+
+      display: flex;
+      flex-direction: row !important;
+      justify-content: center;
+      align-items: center;
+
+    }
   
    #mui{
     width: 80% !important;
