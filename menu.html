@@ -986,7 +986,7 @@ const moveToNextSlide = () => {
 };
 
 // Set interval to move slides automatically
-const slideInterval = setInterval(moveToNextSlide, 1000); // Change slide every 2 seconds
+const slideInterval = setInterval(moveToNextSlide, 2000); // Change slide every 2 seconds
 
 // Stop interval when mouse enters the slideshow container
 const slideshowContainer = document.querySelector('.slideshow-container');
@@ -996,7 +996,7 @@ slideshowContainer.addEventListener('mouseenter', () => {
 
 // Resume interval when mouse leaves the slideshow container
 slideshowContainer.addEventListener('mouseleave', () => {
-  slideInterval = setInterval(moveToNextSlide, 1000); // Change slide every 2 seconds
+  slideInterval = setInterval(moveToNextSlide, 2000); // Change slide every 2 seconds
 });
 
 </script>
