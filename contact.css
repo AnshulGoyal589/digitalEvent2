@@ -131,7 +131,7 @@ textarea{
     #hero {
       /* min-height: auto; */
       padding: 10% 5%;
-      gap: 5%;
+      gap: 5%; 
       width: 90%;
       padding-bottom: 100px !important;
     }
@@ -246,7 +246,12 @@ textarea{
     }
     /* ////////////////// */
     #hjk{
-        text-align: center;
+        text-align: center !important;
+    }
+    #hjk > h1{
+        text-align: center !important;
+        width: 100% !important;
+        /* border: 1px solid black; */
     }
     #con{
         text-align: center;
