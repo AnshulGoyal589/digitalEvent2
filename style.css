@@ -330,7 +330,7 @@
     gap: 3% !important;
     width: 95% !important;
   }
-
+ 
   #tyu{
     margin-bottom: 120px !important;
     margin-top: -70px !important;
@@ -399,5 +399,11 @@
     align-items: center !important;
     gap: 5px !important;
     margin-bottom: 5px;
+  }
+  #body2 > div > div{
+    display: none !important;
+  }
+  #body2 > div > h2{
+    width: 60vw !important;
   }
 }
