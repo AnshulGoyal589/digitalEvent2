@@ -178,6 +178,7 @@ img {
     #heroC > h1 {
         margin-top: 20% !important;
       text-align: center;
+      font-size: 15vw !important;
     }
     #navbar{
       display: flex;

@@ -232,7 +232,7 @@
   }
   #heroC > h1 {
     text-align: center;
-    font-size: 70px !important;
+    font-size: 15vw !important;
   }
   #navbar{
     display: flex;
